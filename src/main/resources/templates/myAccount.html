@@ -4,6 +4,30 @@
 
 
 <body class="d-flex flex-column">
+
+
+  <style>
+body {
+  background-image: url("/image/Home page(4).jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:100% 105%;
+}
+</style> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <div th:replace="common/header :: navbar"> </div>
 
   <div class="container my-3 my-sm-5 page-content">
@@ -46,7 +70,7 @@
                         password ?</a>
                   </div>
                   <button type="submit"
-                    class="btn btn-primary btn-block">LOGIN</button>
+                    class="btn btn-dark btn-block">LOGIN</button>
                 </form>
               </div>
               <!-- /Login Form -->
@@ -95,7 +119,7 @@
     </div>
   </div>
   
-  <div th:replace="common/header :: footer"> </div>
+
   <div th:replace="common/header :: body-scripts"> </div>
   
 </body>
